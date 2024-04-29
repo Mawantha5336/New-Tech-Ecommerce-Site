@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="icon" href="Icon/Shop Icon.svg">
+    <title>NEW TECH |Product</title>
+</head>
+
+<body style="background-image: url(Image/OrganicCover.jpg); 
+background-repeat: no-repeat; background-size: cover;">
+
+    <nav class="site-header sticky-top py-1 bg-secondary">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2" href="Home.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto">
+               <circle cx="12" cy="12" r="10"></circle>
+               <line x1="14.31" y1="8" x2="20.05" y2="17.94"></line>
+               <line x1="9.69" y1="8" x2="21.17" y2="8"></line>
+               <line x1="7.38" y1="12" x2="13.12" y2="2.06"></line>
+               <line x1="9.69" y1="16" x2="3.95" y2="6.06"></line>
+               <line x1="14.31" y1="16" x2="2.83" y2="16"></line>
+               <line x1="16.62" y1="12" x2="10.88" y2="21.94"></line>
+            </svg>
+            </a>
+            <a class="py-2 d-none d-md-inline-block text-dark
+      " href="Home.html">Home</a>
+            <a class="py-2 d-none d-md-inline-block text-light" href="#">Product</a>
+            <a class="py-2 d-none d-md-inline-block text-light" href="Login.html">SignUp</a>
+            <a class="py-2 d-none d-md-inline-block text-light" href="Register.html">Register</a>
+            <a class="py-2 d-none d-md-inline-block text-light" href="Terms.html">Terms</a>
+            <a class="py-2 d-none d-md-inline-block text-light" href="Watchlist.html">Watchlist</a>
+        </div>
+    </nav>
+
+    <section class="h-100 h-custom" style="background-image: url(Image/electric.jpg); background-repeat: no-repeat; background-size: cover;">
+        <div class="container h-100 py-5">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col">
+                    <div class="card shadow-2-strong mb-5 mb-lg-0" style="border-radius: 16px;">
+
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="h5">Product</th>
+                                        <th scope="col">Type</th>
+                                        <th scope="col">Quantity</th>
+                                        <th scope="col">Selling Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <div class="d-flex align-items-center">
+                                                <img src="Image/tv1.webp" style="width: 120px;" alt="Book">
+                                                <div class="flex-column ms-4">
+                                                    <p class="mb-2">Lenovo Smart TV</p>
+
+                                                </div>
+                                            </div>
+                                        </th>
+                                        <td class="align-middle">
+                                            <p class="mb-0" style="font-weight: 500;">Brand New</p>
+                                        </td>
+                                        <td class="align-middle">
+                                            <div class="d-flex flex-row">
+                                                <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                       <i class="fas fa-minus"></i>
+                                    </button>
+
+                                                <input id="form1" min="0" name="quantity" value="2" type="number" class="form-control form-control-sm" style="width: 50px;" />
+
+                                                <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                       <i class="fas fa-plus"></i>
+                                    </button>
+                                            </div>
+                                        </td>
+                                        <td class="align-middle">
+                                            <p class="mb-0" style="font-weight: 500;">Rs.72000.00</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="border-bottom-0">
+                                            <div class="d-flex align-items-center">
+                                                <img src="Image/apple.jpg" class="img-fluid rounded-3" style="width: 120px;" alt="Book">
+                                                <div class="flex-column ms-4">
+                                                    <p class="mb-2">i Phone X</p>
+
+                                                </div>
+                                            </div>
+                                        </th>
+                                        <td class="align-middle border-bottom-0">
+                                            <p class="mb-0" style="font-weight: 500;">Brand New</p>
+                                        </td>
+                                        <td class="align-middle border-bottom-0">
+                                            <div class="d-flex flex-row">
+                                                <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                       <i class="fas fa-minus"></i>
+                                    </button>
+
+                                                <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control form-control-sm" style="width: 50px;" />
+
+                                                <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                       <i class="fas fa-plus"></i>
+                                    </button>
+                                            </div>
+                                        </td>
+                                        <td class="align-middle border-bottom-0">
+                                            <p class="mb-0" style="font-weight: 500;">Rs.150000.00</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="border-bottom-0">
+                                            <div class="d-flex align-items-center">
+                                                <img src="Image/pocco.jpg" class="img-fluid rounded-3" style="width: 120px;" alt="Book">
+                                                <div class="flex-column ms-4">
+                                                    <p class="mb-2">POCCO F1</p>
+
+                                                </div>
+                                            </div>
+                                        </th>
+                                        <td class="align-middle border-bottom-0">
+                                            <p class="mb-0" style="font-weight: 500;">Brand New</p>
+                                        </td>
+                                        <td class="align-middle border-bottom-0">
+                                            <div class="d-flex flex-row">
+                                                <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                       <i class="fas fa-minus"></i>
+                                    </button>
+
+                                                <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control form-control-sm" style="width: 50px;" />
+
+                                                <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                       <i class="fas fa-plus"></i>
+                                    </button>
+                                            </div>
+                                        </td>
+                                        <td class="align-middle border-bottom-0">
+                                            <p class="mb-0" style="font-weight: 500;">Rs.39000.00</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="border-bottom-0">
+                                            <div class="d-flex align-items-center">
+                                                <img src="Image/fan1.jpg" class="img-fluid rounded-3" style="width: 120px;" alt="Book">
+                                                <div class="flex-column ms-4">
+                                                    <p class="mb-2">table fan</p>
+
+                                                </div>
+                                            </div>
+                                        </th>
+                                        <td class="align-middle border-bottom-0">
+                                            <p class="mb-0" style="font-weight: 500;">Brand New</p>
+                                        </td>
+                                        <td class="align-middle border-bottom-0">
+                                            <div class="d-flex flex-row">
+                                                <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                       <i class="fas fa-minus"></i>
+                                    </button>
+
+                                                <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control form-control-sm" style="width: 50px;" />
+
+                                                <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                       <i class="fas fa-plus"></i>
+                                    </button>
+                                            </div>
+                                        </td>
+                                        <td class="align-middle border-bottom-0">
+                                            <p class="mb-0" style="font-weight: 500;">Rs.14000.00</p>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-block btn-lg">
+                  <div class="d-flex justify-content-between">
+                     <span>Remove &nbsp;</span>
+                  </div>
+               </button>
+                    <button type="button" class="btn btn-secondary btn-block btn-lg">
+                  <div class="d-flex justify-content-between">
+                     <span>Update &nbsp;</span> 
+                  </div>
+               </button>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="Script.js"></script>
+</body>
+
+</html>
